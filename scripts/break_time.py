@@ -1,12 +1,17 @@
 import time
 import webbrowser
+import time
 
 '''
 function accepts a time and url and executes opening the url in a
 web browser per unit time.
 '''
 
+# add a start time message
 
+the_time = time.ctime()
+
+print("This program started on {}").format(the_time)
 
 # wrap time and url open code in loop
 
