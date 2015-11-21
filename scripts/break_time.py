@@ -10,9 +10,10 @@ web browser per unit time.
 
 # wrap time and url open code in loop
 
-count = 0
+total_breaks = 3
+break_count = 0
 
-while count < 3:
+while(break_count < total_breaks):
     
     ## pause for requisite period
 
@@ -22,4 +23,4 @@ while count < 3:
 
     webbrowser.open('https://www.youtube.com/watch?v=FKscaLcO7ko')
 
-    count +=1
+    break_count +=1
