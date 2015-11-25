@@ -37,8 +37,17 @@ def draw_art():
 	brad.color('yellow')
 	brad.speed(2)
 
+
+	# wrap draw_square in a loop
+	angle = 10
+	squares = 360/angle
+	number_squares = 0
+
+	while(number_squares < squares):
 	# pass turtle instance to draw_square function
-	draw_square(brad)
+		draw_square(brad)
+		brad.right(angle)
+		number_squares += 1
 
 	# close canvas on clickity
 
