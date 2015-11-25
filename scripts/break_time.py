@@ -1,6 +1,5 @@
 import time
 import webbrowser
-import time
 
 '''
 function accepts a time and url and executes opening the url in a

@@ -34,6 +34,14 @@ def draw_square():
 		brad.right(90)
 		sides_count += 1
 
+	# draw a circle
+	jose = turtle.Turtle()
+	jose.circle(50)
+	jose.shape('turtle')
+	jose.color('green')
+
+
+
 	## close window on click
 	window.exitonclick()
 
